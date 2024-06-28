@@ -1,0 +1,442 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  /* display: flex; */
+  background-color: #DBDBDB;
+  justify-content: center;
+}
+
+/* KEMBALI */
+ a  {
+  text-decoration: none;
+}
+.balik {
+  font-size: 30px;
+  margin-left: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+
+}
+.balik h5 {
+  width: 8vh;
+  color: black;
+}
+/* Responsive kembali */
+@media screen and (max-width: 576px) {
+  .balik {
+    font-size: 13px;
+    margin-bottom: -4vh;
+    
+  }
+}
+
+
+/* SEARCH */
+
+.input-box {
+  position: relative;
+  height: 76px;
+  max-width: 900px;
+  width: 100%;
+  background: #fff;
+  margin: 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid red;
+}
+.input-box i,
+.input-box .button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input-box i {
+ left: 20px; 
+  font-size: 10px;
+  color: #707070;
+}
+.input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  padding: 0 166px 0 15px; 
+  background-color: transparent;
+  
+}
+.input-box .button {
+  right: 20px;
+  font-size: 10px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  background-color: red;
+  cursor: pointer;
+}
+.input-box .button:active {
+  transform: translateY(-50%) scale(0.98);
+}
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+  .input-box {
+    width: 45vh;
+    height: 55px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .input-box i {
+    left: 12px;
+    font-size: 20px;
+  }
+  .input-box input {
+    padding: 0 112px 0 15px;
+  }
+  .input-box .button {
+    right: 12px;
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+}
+
+/* Isi konten */
+
+.isi {
+  margin-top: 3em;
+  padding-left: 20px;
+  max-width: 48vh;
+  max-height: 900vh;
+  
+}
+.isi h5 {
+float: right;
+margin-right: 40vh;
+color: black;
+}
+.isi img {
+  border-radius: 50px;
+  
+}
+/* Freefire */
+.ff img {
+  width: 43px;
+  height: 43px;
+  margin-left: 15px;
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+.ff {
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+}
+.ff h5 {
+  margin-right: 39.5vh;
+  padding-top: 10px;
+}
+
+/* Mobile legens */
+.ml {
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+}
+.ml h5 {
+  margin-right: 37vh;
+  padding-top: 10px;
+}
+.ml img {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-bottom: 1px;
+  margin-top: 5px;
+}
+
+/* pubg mobile */
+.pubg {
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+}
+.pubg img {
+   height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-bottom: 1px;
+  margin-top: 5px; 
+}
+.pubg h5 {
+  margin-right: 38vh;
+  padding-top: 10px;
+}
+
+/* Hugo */
+
+.hago {
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+}
+.hago img {
+   height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-bottom: 1px;
+  margin-top: 5px; 
+}
+.hago h5 {
+  margin-right: 40.5vh;
+  padding-top: 10px;
+}
+
+/* HDI */
+
+.hdi {
+    margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+}
+
+.hdi img {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-bottom: 1px;
+  margin-top: 5px; 
+}
+.hdi h5 {
+  margin-right: 35.2vh;
+  padding-top: 10px;
+}
+
+/* UNDAWN */
+.undawn {
+    margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+}
+
+.undawn img {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-bottom: 1px;
+  margin-top: 5px; 
+}
+.undawn h5 {
+  margin-right: 39.5vh;
+  padding-top: 10px;
+}
+/* Valo */
+.valo {
+    margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+}
+
+.valo img {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-bottom: 1px;
+  margin-top: 5px; 
+}
+.valo h5 {
+  margin-right: 39.4vh;
+  padding-top: 10px;
+}
+
+/* HOK */
+
+.hok {
+    margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+}
+
+.hok img {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-bottom: 1px;
+  margin-top: 5px; 
+}
+.hok h5 {
+  margin-right: 37.3vh;
+  padding-top: 10px;
+}
+
+/* genshin */
+.gensin {
+    margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+}
+
+.gensin img {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-bottom: 1px;
+  margin-top: 5px; 
+}
+.gensin h5 {
+  margin-right: 37vh;
+  padding-top: 10px;
+}
+
+/* CODM */
+.codm {
+    margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+}
+
+.codm img {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-bottom: 1px;
+  margin-top: 5px; 
+}
+.codm h5 {
+  margin-right: 36vh;
+  padding-top: 10px;
+}
+
+
+
+
+
+/* Responsive mobile */
+@media screen and (max-width: 576px) {
+  .isi {
+    height: 100vh;
+  }
+  .isi h5 {
+    float: right ;
+    padding-top: 5px;
+  }
+  .ff {
+    height: 8vh;
+  }
+  .ff img {
+    margin-top: 12px;
+  }
+  .ff h5 {
+    margin-right: 28vh;
+    margin-top: 17px;
+  }
+  .ml {
+    height: 8vh;
+  }
+  .ml img {
+    margin-top: 12px;
+  }
+  .ml h5 {
+    margin-right: 22vh;
+    margin-top: 17px; 
+  }
+  .pubg {
+    height: 8vh;
+  }
+  .pubg img {
+    margin-top: 12px;
+  }
+  .pubg h5 {
+    margin-right: 24vh;
+    margin-top: 17px;
+  }
+ .hago {
+    height: 8vh;
+  }
+  .hago img {
+    margin-top: 12px;
+  } 
+  .hago h5 {
+    margin-right: 30vh;
+    margin-top: 17px;
+  }
+  .hdi {
+    height: 8vh;
+  }
+  .hdi img {
+    margin-top: 12px;
+  }
+  .hdi h5 {
+    margin-right: 18vh;
+    margin-top: 17px;
+  }
+  .undawn {
+    height: 8vh;
+  }
+  .undawn img {
+    margin-top: 12px;
+  }
+  .undawn h5 {
+    margin-right: 28vh;
+    margin-top: 17px;
+  }
+  .valo {
+    height: 8vh;
+  }
+  .valo img {
+    margin-top: 12px;
+  }
+   .valo h5 {
+    margin-right: 27.5vh;
+    margin-top: 17px;
+  }
+  .hok {
+    height: 8vh;
+  }
+  .hok img {
+    margin-top: 12px;
+  }
+  .hok h5 {
+    margin-right: 22.8vh;
+    margin-top: 17px;
+  }
+  .gensin {
+    height: 8vh;
+  }
+  .gensin img {
+    margin-top: 12px;
+  }
+  .gensin h5 {
+    margin-right: 22vh;
+    margin-top: 17px;
+  }
+  .codm {
+    height: 8vh;
+  }
+  .codm img {
+    margin-top: 12px;
+  }
+  .codm h5 {
+    margin-right: 20vh;
+    margin-top: 17px;
+  }
+}

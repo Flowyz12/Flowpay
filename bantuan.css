@@ -1,0 +1,159 @@
+/* Style Umum */
+body {
+    font-family:  Arial;
+    color: black;
+    background-color: #E1EAF1;
+    margin: 0;
+   /* display: flex; */
+   /* justify-content: center;
+    align-items: center;*/
+    height: 100vh;
+    font-weight: bold;
+}
+
+header {
+   background-color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+   margin-bottom: 10px;
+   margin-top: -15px;
+   height: 90px;
+   width: 102.2%;
+   margin-left: 0vh;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: black;
+  width: 10px;
+  margin-left: 50px;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+header span {
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #fff;
+    margin-left: 25px;
+}
+
+/* CS */
+.isi {
+  margin-top: 3em;
+  padding-left: 2em;
+  width: 50vh;
+  
+}
+.isi h5 {
+float: right;
+margin-right: 40vh;
+color: black;
+}
+/* BANTUAN WA */
+.bantuan-wa img {
+  border-radius: 50px;
+  
+}
+.bantuan-wa img {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-bottom: 2px;
+  margin-top: 1.5em;
+}
+.bantuan-wa {
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+  height: 5vh;
+}
+.bantuan-wa h5 {
+  margin-right: 34.5vh;
+  padding-top: 0.5em;
+  font-size: 17px;
+}
+/* BANTUAN TELE */
+.bantuan-tele img {
+  border-radius: 50px;
+  
+}
+.bantuan-tele img {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-bottom: 2px;
+  margin-top: 1.5em;
+}
+.bantuan-tele {
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #E1EAF1;
+  height: 5vh;
+  margin-top: 30px;
+}
+.bantuan-tele h5 {
+  margin-right: 34.5vh;
+  padding-top: 0.5em;
+  font-size: 17px;
+}
+@media screen and (max-width: 576px) {
+  header {
+    width: 45.8vh;
+  }
+.header-left a {
+  margin-left: 5px;
+}
+header h1 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+header span {
+  font-size: 24px;
+}
+header {
+  height: 50px;
+}
+.isi {
+  width: 43vh;
+}
+.isi h5 {
+  float: right;
+}
+  .bantuan-wa {
+    height: 8vh;
+  }
+  .bantuan-wa img {
+    margin-top: 12px;
+    height: 40px;
+    width: 40px;
+  }
+  .bantuan-wa h5 {
+    margin-right: 10vh;
+    margin-top: 2vh;
+    font-size: 15px;
+  }
+  .bantuan-tele {
+    height: 8vh;
+  }
+  .bantuan-tele img {
+    margin-top: 12px;
+    height: 40px;
+    width: 40px;
+  }
+  .bantuan-tele h5 {
+    margin-right: 10.6vh;
+    margin-top: 2vh;
+    font-size: 15px;
+  }
+}

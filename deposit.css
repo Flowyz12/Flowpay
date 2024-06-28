@@ -1,0 +1,135 @@
+/* Style Umum */
+body {
+    font-family:  Arial;
+    color: black;
+    background-color: #E1EAF1;
+    margin: 0;
+    display: flex;
+   /* justify-content: center;
+    align-items: center;*/
+    height: 100vh;
+    font-weight: bold;
+}
+
+.container {
+    background-color: ; 
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+   background-color: #e60000;
+    padding: 20px;
+    
+    display: flex;
+   /* justify-content: space-between; */
+   /* align-items: center; */
+   margin-bottom: 10px;
+   margin-top: -30px;
+   height: 50px;
+   width: 102.2%;
+   margin-left: -3vh;
+}
+.header-left a {
+  text-decoration: none;
+  color: black;
+  width: 10px;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+header span {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+    margin-left: 15px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.saldo p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.saldo h2 {
+    margin: 5px 0;
+    font-size: 24px;
+    color: #4caf50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #E1EAF1; 
+    color: black;
+    outline: none;
+}
+
+.quick-input {
+    margin-bottom: 20px;
+}
+
+.quick-input p {
+    margin: 0 0 10px;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button-group button {
+    flex: 1 0 45%;
+    padding: 10px;
+     background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-group button:hover {
+    background-color: #555;
+}
+
+.btn-submit {
+    padding: 15px;
+    background-color: #e60000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn-submit:hover {
+    background-color: #b30000;
+}
